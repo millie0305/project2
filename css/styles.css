@@ -1,0 +1,109 @@
+body {
+    background-color: #FFEEF0;
+    color: #4D413E;
+    font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+    line-height: 1.75;
+}
+
+h1 {
+    color: #E78F8E;
+    font-size: 50px;
+    text-align: center;
+}
+
+h2 {
+    border-bottom: 3px dotted #E78F8E; 
+    font-size: 35px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+p {
+    text-indent: 50px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse; 
+    margin-bottom: 20px;
+}
+
+th {
+    text-align: left; 
+    padding: 10px; 
+    color: #E78F8E;
+    font-size: 25px;
+}
+
+td {
+    padding: 10px;
+    border-bottom: 2px solid #E78F8E; 
+}
+
+
+strong {
+    color: #F48498;
+}
+
+.lead {
+    grid-column: 1/3;
+    padding: 20px; 
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top:20px;
+    margin-bottom: 20px;
+  }
+
+  .portrait {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px dotted #E78F8E; 
+    width: auto;
+    max-width: 100%;
+    height: auto; 
+}
+
+main {
+    display: grid;
+    grid-template-columns: 3fr 1fr; 
+    grid-gap: 20px;
+    padding: 20px 0; 
+}
+
+.lead {
+    grid-column: 1 / -1; 
+    padding: 20px;
+}
+
+.main-content {
+    grid-column: 1;
+}
+
+.side-content {
+    grid-column: 2;
+}
+
+footer {
+    grid-column: 1 / -1;
+}
+
+.container {
+    padding-left: 10%;
+    padding-right:10%
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #E78F8E;
+}
